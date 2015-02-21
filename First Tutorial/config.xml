@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<widget	xmlns		= "http://www.w3.org/ns/widgets"
-			xmls:gap	= "http://phonegap.com/ns/1.0"
-			id			= "org.coenraets.employeedirectory"
-			versionCode = "10"
-			version		= "1.1.0">
+<widget	xmlns		="http://www.w3.org/ns/widgets"
+		xmls:gap	= "http://phonegap.com/ns/1.0"
+		id			= "org.coenraets.employeedirectory"
+		version		= "1.1.0">
 		
   <name>Employee Directory</name>
 		
@@ -14,12 +12,12 @@
 	<author href="http://coenraets.org" email="szy.stec@gmail.com">
 		Szymon Stec
 	</author>
-   
-  <feature name="http://api.phonegap.com/1.0/camera"/>
-  <feature name="http://api.phonegap.com/1.0/contacts"/>
-  <feature name="http://api.phonegap.com/1.0/file"/>
-  <feature name="http://api.phonegap.com/1.0/notification"/>
-  <feature name="http://api.phonegap.com/1.0/media"/>
-  <feature name="http://api.phonegap.com/1.0/network"/>
+ 
+  <content src="index.html"/> 
+  <gap:plugin name="org.apache.cordova.camera"/>
+  <gap:plugin name="org.apache.cordova.contacts"/>
+  <gap:plugin name="org.apache.cordova.file"/>
+  <gap:plugin name="org.apache.cordova.media"/>
+  <gap:plugin name="org.apache.cordova.network-information"/>
   
 </widget>
