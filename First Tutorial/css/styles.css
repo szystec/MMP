@@ -74,6 +74,11 @@ body {
 	right: 0px;
 }
 
+li>a.tappable-active {
+	color: #fff;
+	background-color: #4286f5;
+}
+
 input[type="search"] {
     width:100%;
 	border: none;
