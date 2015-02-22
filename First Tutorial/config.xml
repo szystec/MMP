@@ -1,23 +1,20 @@
-<widget	xmlns		= "http://www.w3.org/ns/widgets"
-		xmlns:gap	= "http://phonegap.com/ns/1.0"
-		id			= "org.coenraets.employeedirectory"
-		version		= "1.1.0">
-		
-	<name>Employee Directory</name>
-		
-	<description>
-		A simple employee directory application
-	</description>
-		
-	<author href="http://coenraets.org" email="szy.stec@gmail.com">
-		Szymon Stec
-	</author>
- 
-  <content src="index.html"/> 
-  <gap:plugin name="org.apache.cordova.camera"/>
-  <gap:plugin name="org.apache.cordova.contacts"/>
-  <gap:plugin name="org.apache.cordova.file"/>
-  <gap:plugin name="org.apache.cordova.media"/>
-  <gap:plugin name="org.apache.cordova.network-information"/>
-  
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "org.coenraets.employeedirectory"
+        versionCode="10"
+        version   = "1.1.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Employee Directory</name>
+
+    <description>
+        A simple employee directory application
+    </description>
+
+    <author href="http://coenraets.org" email="ccoenraets@gmail.com">
+        Christophe Coenraets
+    </author>
+
 </widget>
